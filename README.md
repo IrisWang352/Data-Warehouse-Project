@@ -70,39 +70,6 @@ This data warehouse enables:
 └─────────────────────────────────────────────────────────────────────────┘
 `
 
-## ✨ Features
-
-### Data Processing
-- ✅ CSV import with date format handling (M/DD/YYYY → YYYY-MM-DD)
-- ✅ 3NF normalization for operational data
-- ✅ Star schema transformation for analytics
-- ✅ SCD Type 2 support for slowly changing dimensions
-- ✅ Automated ETL stored procedures
-
-### Analytical Capabilities
-- Monthly revenue trend analysis
-- Year-over-year comparison
-- Property performance ranking
-- Landlord profitability reports
-- Seasonal maintenance patterns
-- Management fee analysis
-
-### Visualization
--  Interactive Plotly dashboard
--  KPI summary cards
--  Multi-chart HTML report
--  Dark theme professional design
-
-
-## Usage
-
-### Generate Dashboard
-
-```bash
-python landlord_dashboard.py
-```
-
-This creates `landlord_dashboard_output.html` - open it in your browser.
 
 ### Query Examples
 
