@@ -21,7 +21,7 @@ This data warehouse enables:
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -69,24 +69,6 @@ This data warehouse enables:
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 `
-
-
-### Query Examples
-
-```sql
--- Monthly revenue trends
-SELECT * FROM vw_monthly_trends ORDER BY year, month_number;
-
--- Top performing properties
-SELECT * FROM vw_property_annual_performance 
-WHERE year = 2024 ORDER BY net_profit DESC LIMIT 10;
-
--- Landlord profitability
-SELECT * FROM vw_landlord_performance ORDER BY total_profit DESC;
-
--- Seasonal repair patterns
-SELECT * FROM vw_seasonal_maintenance;
-```
 
 
 ## Analytical Views
